@@ -26,4 +26,4 @@ int main(){//inicio do algoritimo
    printf("segundos: %d",minutos * 3600);//ne
 
 
-}//final do algoritimo
+}//final do algoritim
