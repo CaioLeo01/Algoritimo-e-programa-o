@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     float altura, resultadoHomi, resultadoMuie;
     char sexo;
@@ -10,12 +10,13 @@ printf("Digite a altura:\n");
 scanf("%f", &altura);
 
 if (sexo == 'm' || sexo == 'M')
-{
-resultadoHomi = (72.7 * altura) - 58;
-printf("resultado: %.1f\n", resultadoHomi);
-}
-else
-{
-    resultadoMuie = (62.1 * altura) - 44.7;
-printf("resultado: %.1f\n", resultadoMuie);
+   {
+   resultadoHomi = (72.7 * altura) - 58;
+   printf("resultado: %.1f\n", resultadoHomi);
+   }
+else if(sexo ==  'f' || sexo == 'F')
+   {
+   resultadoMuie = (62.1 * altura) - 44.7;
+   printf("resultado: %.1f\n", resultadoMuie);
+   }else printf("Entrada invalida");
 }
