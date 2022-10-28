@@ -111,13 +111,22 @@ printf("Digite a sua data de nascimento(so e valida de 1900 a 2022):\n");
 scanf("%i", &idade);
 fflush(stdin);
 
-if(idade % 4 == 0 && idade % 100 == 0 && idade % 400 == 0)
+if(idade <=1989 || idade >= 2023)
 
+    printf("Ano de nascimento nao eh valido");
+
+else if(idade % 4 == 0 && idade % 100 == 0 && idade % 400 == 0)
+ 
 printf("%s,o ano %d eh bissexto!", nome, idade);
     
+    else if(idade <=1989 || idade >= 2023)
+
+    printf("Ano de nascimento nao eh valido");
     
     else if(idade % 4 != 0 && idade % 100 != 0 && idade % 400 != 0)
+    
          printf("%s,voce nao nasceu em um ano bissexto :(", nome);
+     
      
     
          
