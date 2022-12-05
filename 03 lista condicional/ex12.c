@@ -1,5 +1,4 @@
-// 12. Faça um programa que informe o mês de acordo com o número digitado pelo usuário.
-//Exemplo: Entrada = 4. Saída = Abril.
+
 #include <stdio.h>
 
 int main (){
@@ -9,34 +8,20 @@ int mes;
  printf("Digite o mes: ");
  scanf("%d", &mes);
 
-
-if (mes == 1)
-printf("Janeiro");
-   else if (mes == 2)
-    printf("Fevereiro");
-        else if (mes == 3)
-        printf("Fevereiro");
-            else if (mes == 3)
-               printf("Fevereiro");
-                else if (mes == 4)
-                   printf("Fevereiro");
-                    else if (mes == 5)
-                         printf("Fevereiro");
-                            else if (mes == 6)
-                            printf("Fevereiro");
-                                else if (mes == 7)
-                                    printf("Fevereiro");
-                                    else if (mes == 8)
-                                         printf("Fevereiro");
-                                            else if (mes == 9)
-                                             printf("Fevereiro");
-                                                else if (mes == 10)
-                                                  printf("");
-                                                    else if (mes == 11)
-                                                      printf("Novembro");
-                                                        else if (mes == 12)
-                                                          printf("Dezembro");
-
+ switch (mes)
+{
+case 1: printf("Janeiro"); break;
+case 2: printf("fevereiro"); break;
+case 3: printf("Janeiro"); break;
+case 4: printf("Janeiro"); break;
+case 5: printf("Janeiro"); break;
+case 6: printf("Janeiro"); break;
+case 7: printf("Janeiro"); break;
+case 8: printf("Janeiro"); break;
+case 9: printf("Janeiro"); break;
+case 10: printf("Janeiro"); break;
+case 11: printf("Janeiro"); break;
+case 12: printf("Janeiro"); break;
 
 
 
@@ -58,3 +43,6 @@ printf("Janeiro");
 
 
 
+
+
+}
