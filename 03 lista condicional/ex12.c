@@ -12,16 +12,16 @@ int mes;
 {
 case 1: printf("Janeiro"); break;
 case 2: printf("fevereiro"); break;
-case 3: printf("Janeiro"); break;
-case 4: printf("Janeiro"); break;
-case 5: printf("Janeiro"); break;
-case 6: printf("Janeiro"); break;
-case 7: printf("Janeiro"); break;
-case 8: printf("Janeiro"); break;
-case 9: printf("Janeiro"); break;
-case 10: printf("Janeiro"); break;
-case 11: printf("Janeiro"); break;
-case 12: printf("Janeiro"); break;
+case 3: printf("marco"); break;
+case 4: printf("Abril"); break;
+case 5: printf("Maio"); break;
+case 6: printf("Junho"); break;
+case 7: printf("Julho"); break;
+case 8: printf("Agosto"); break;
+case 9: printf("Setembro"); break;
+case 10: printf("outubro"); break;
+case 11: printf("Novembro"); break;
+case 12: printf("Dezembro"); break;
 
 
 
