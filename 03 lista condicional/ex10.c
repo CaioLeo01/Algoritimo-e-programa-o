@@ -7,8 +7,14 @@ int main()
 int equacao;
 float x, y, z, resultado;
 
-printf("Digite tres valores : ");
-scanf("%f%f%f", &x, &y, &z);
+printf("Digite o valor de 'x':\n");
+scanf("%f", &x);
+printf("Digite o valor de 'y':\n");
+scanf("%f", &y);
+printf("Digite o valor de 'z':\n");
+scanf("%f", &z);
+
+
 
 printf("Digite a operacao desejada (1)Geometrica, (2)Ponderada, (3)Harmonica, (4)Aritimetica: ");
 scanf("%d", &equacao);
